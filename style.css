@@ -385,6 +385,9 @@ a {
     border-radius: 8px;
     z-index: 4;
 }
+#close {
+    display: none;
+}
 .section-5-card-2{
     background: #FFFFFF;
     box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
@@ -517,6 +520,7 @@ a {
         right: 55px;
         cursor: col-resize;
         z-index: 101;
+        display: block;
     }
     #burger {
         display: block;
